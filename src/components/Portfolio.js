@@ -1,8 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import PWScreenshot from '../assets/passwords.png';
-import WeatherScreenshot from '../assets/weather.png';
-import NoteScreenshot from '../assets/screenshot2.png';
 
 const Portfolio = () => {
     // store your projects' data in an array of objects
@@ -10,21 +7,21 @@ const Portfolio = () => {
         {
             title: "Weather Dashboard",
             description: "My first project using API's. This application allows the user to search for a city and get the current weather and a 5 day forecast",
-            imageUrl: WeatherScreenshot,
+            imageUrl: `${process.env.PUBLIC_URL}/assets/weather.png`,
             liveUrl: "https://02madmax.github.io/Weather-App/",
             githubUrl: "https://github.com/02madmax/Weather-App"
         },
         {
             title: "Notes App",
             description: "This application allows the user to create, save, and delete notes.",
-            imageUrl: NoteScreenshot,
+            imageUrl: `${process.env.PUBLIC_URL}/assets/screenshot2.png`,
             liveUrl: "https://note-application02-2d352f5a811b.herokuapp.com/",
             githubUrl: "https://github.com/02madmax/Note-Taker"
         },
         {
             title: "Password Generator",
             description: "This application allows the user to generate a random password based on criteria they've selected.",
-            imageUrl: PWScreenshot,
+            imageUrl: `${process.env.PUBLIC_URL}/assets/passwords.png`,
             liveUrl: "https://02madmax.github.io/PWGenerator/",
             githubUrl: "https://github.com/02madmax/PWGenerator"
         }

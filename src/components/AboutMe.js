@@ -1,7 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import profileImage from '../assets/picofme.jpg';
-
 
 //my about me page that will be updated later to include more information and custom styling
 const AboutMe = () => {
@@ -9,7 +7,7 @@ const AboutMe = () => {
         <Container className="mt-5">
             <Row>
                 <Col md={4}>
-                    <Image src={profileImage} alt="picture of me in the mountains" className='profile-image' fluid />
+                    <Image src={`${process.env.PUBLIC_URL}/assets/picofme.jpg`} alt="picture of me in the mountains" className='profile-image' fluid />
                 </Col>
                 <Col md={8}>
                     <h2>About Me</h2>
