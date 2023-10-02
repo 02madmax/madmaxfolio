@@ -2,7 +2,8 @@
 
 ## Description
 
-This website was built to show my usage of building a custom website in react. I will continue to improve and revise this website as I learn more about react but at the time of creation I am still very new and unfamiliar to it. 
+This website was built to show my usage of building a custom website in react. I will continue to improve and revise this website as I learn more about react but at the time of creation I am still very new and unfamiliar to it. Due to some complications I was having with the react sub repo, I had to make another repository and inserted all of my code into this repo. So I included both links for both repos. 
+
 
 ## Table of Contents
 
@@ -41,3 +42,9 @@ For additional questions, contact me:
 - GitHub: [02madmax](https://github.com/02madmax)
 - Email: maxlamthach10@gmail.com
 
+## Links
+
+- [GitHub Repository](https://github.com/02madmax/madmaxfolio)
+- [Github Repository 2](https://github.com/02madmax/madmax-portfolio)
+- [Deployed Application](https://02madmax.github.io/madmaxfolio/)
+```

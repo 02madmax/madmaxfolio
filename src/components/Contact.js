@@ -25,12 +25,20 @@ const Contact = () => {
 
     return (
         <Container className="mt-5">
+            <h2>Contact Me</h2>
+
+            <div className="contact-info mb-5">
+                <p><a href="mailto:maxlamthach10@gmail.com">maxlamthach10@gmail.com</a></p>
+                <p>If you'd like to reach out, you can contact me at the email above. Or use the contact form below.</p>
+            </div>
+
             {showAlert && (
                 <Alert variant="success" onClose={() => setShowAlert(false)} dismissible>
                     Message sent successfully!
                 </Alert>
             )}
-            <h2>Contact Me</h2>
+
+            {/* Contact Form */}
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3">
                     <Form.Label>Name:</Form.Label>
