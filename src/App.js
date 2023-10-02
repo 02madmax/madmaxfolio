@@ -15,6 +15,7 @@ function App() {
                 <Header />
                 <div className="content">
                     <Routes>
+                        <Route path="/madmaxfolio" element={<AboutMe />} />
                         <Route path="/aboutme" element={<AboutMe />} />
                         <Route path="/portfolio" element={<Portfolio />} />
                         <Route path="/contact" element={<Contact />} />
