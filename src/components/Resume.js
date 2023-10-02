@@ -10,14 +10,14 @@ const ResumePage = () => {
         <Container className="mt-5">
             <Row>
                 <Col md={6} className="resume-section d-flex flex-column align-items-center justify-content-center">
-                    <h3>{Resume}</h3>
-                    <a href="/cover-letter.pdf" target="_blank" rel="noopener noreferrer">
+                    <h3>Resume</h3>
+                    <a href={Resume}target="_blank" rel="noopener noreferrer">
                         <Button variant="primary">View Resume</Button>
                     </a>
                 </Col>
                 <Col md={6} className="cover-letter-section d-flex flex-column align-items-center justify-content-center">
-                    <h3>{CoverLetter}</h3>
-                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <h3>Cover Letter</h3>
+                    <a href={CoverLetter} target="_blank" rel="noopener noreferrer">
                         <Button variant="primary">View Cover Letter</Button>
                     </a>
                 </Col>
