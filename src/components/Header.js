@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand href="/">Mad Max</Navbar.Brand>
+                <Navbar.Brand href="/madmaxfolio">Mad Max</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
